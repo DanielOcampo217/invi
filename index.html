@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitacion Nuestra Boda N & D</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="https://lens-storage.storage.googleapis.com/png/3d1db1d39afe4f2cb0fb6ae062e0098a">
+    <script src="https://kit.fontawesome.com/1470bb1775.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+</head>
+<body>
+    <audio src="./A Sky Full Of Stars (Piano Arrangement).mp3" autoplay loop></audio>
+    <header class="header">
+        <div class="press">
+            <h1 class="titulo">N & D</h1>
+            <h2 class="titluo2">¡NOS CASAMOS!</h2>
+        </div>
+    </header>
+
+    <section class="box-a">
+        <div class="multiline-text">
+            <p class="first-letter">NO CREÍA EN EL DESTINO HASTA 
+            <p>QUE NUESTRAS VIDAS SE</p>    
+            <p>CURZARÓN Y EL AMOR FLORECIO</p>    
+            <p>ENTRE NOSOTROS</p>    
+        </div>
+        <img src="./345047697_204935022371766_4552963709411051013_n.jpg" alt="pareja" class="img1">
+        <div class="nos_casamos">
+            <h1 class="text_lx">¡NOS CASAMOS!</h1>
+            <img src="./N-removebg-preview.png" alt="n & d" class="iniciales">
+        </div>
+        <div class="nombres">
+            <div class="line"></div>
+            <p class="nombre tipo">Naara & Daniel</p>
+            <div class="line"></div>
+        </div>
+        <div style="text-align: center;">
+            <hr style="width: 20%; display: inline-block;" class="linea1">
+            <span style="font-size: 24px;"><img src="./icons8-me-gusta (1).gif" alt="" class="corazons"></span>
+            <hr style="width: 20%; display: inline-block;" class="linea2">
+        </div>
+        <div class="date">
+            <p class="fecha">27</p>
+            <p class="mounth">─ ABRIL ─</p>
+            <p class="year">2024</p>
+        </div>
+        
+    </section>
+
+    <section class="box-b">
+        <img src="./icons8-me-gusta-30.png" alt="corazon" class="cora">
+        <div class="lineas">
+            <p class="first-letter espacio">CADA DÍA ME ENAMORO</p>
+            <p class="espacio">MÁS DE TI. MIS SENTIMIENTOS</p>  
+            <p class="espacio">POR TI SON CADA VEZ MÁS</p> 
+            <p class="espacio">PROFUNDOS Y SINCEROS</p>
+        </div>
+        
+        <div class="gran-dia">
+            <p class="text-lg tipo1">¡PARA EL GRAN 
+            <p class="tipo1">DÍA FALTAN!</p>
+        </div>
+    
+        <div class="cuenta">
+            <h1 id="countdown"></h1>
+            <script>
+                // Establecer la fecha objetivo de la cuenta regresiva (puedes ajustarla según tus necesidades)
+                var targetDate = new Date("2024-04-27T23:59:59");
+        
+                // Actualizar la cuenta regresiva cada segundo
+                var countdownInterval = setInterval(updateCountdown, 1000);
+        
+                function updateCountdown() {
+                var currentDate = new Date();
+                var timeDifference = targetDate.getTime() - currentDate.getTime();
+        
+                if (timeDifference > 0) {
+                    // Calcular los días, horas, minutos y segundos restantes
+                    var days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+                    var hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                    var minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
+                    var seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
+        
+                    // Actualizar el elemento HTML con el tiempo restante
+                    document.getElementById("countdown").innerHTML = days + "Días " + hours + "Horas " + minutes + "Min. " + seconds + "Seg";
+                } else {
+                    // Si el tiempo restante es menor o igual a cero, mostrar un mensaje final
+                    document.getElementById("countdown").innerHTML;
+                    clearInterval(countdownInterval);
+                }
+                }
+            </script>
+        </div>
+    </section>
+
+    <section class="box-c">
+        <img src="./fiestanegromate-100x100.png" alt="" class="artificial">
+        <div class="novios">
+            <p>¡Nos casamos en 
+            <p class="lugar"><strong>CDMX!</strong></p>
+        </div>
+        <p class="first-letter text-bendi">CON LA BENDICIÓN DE DIOS 
+        <p class="text-bendi espacios">Y NUESTROS PADRES.</p>
+        <img src="./noviaicono-100x100.png" alt="" class="novia">
+        <div class="padres-nov">
+            <p class="madre">AMELIA LINARES</p>
+            <p class="madre sep">ISAIAS RODRÍGUEZ</p>
+        </div>
+        <img src="./novioicono-100x100.png" alt="" class="novia nov">
+    </section>
+
+    <section class="box-d">
+        <div class="textlugar">
+            <p class="lugar tipo text">CAPILLA</p>
+            <p class="lugar tipo espaci1 text">"JARDIN PRINCESS"</p>
+        </div>
+    </section>
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide carro" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./203713442_3967019136729974_5528207250041074503_n.jpg" class="d-block w-100 h-50" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./197574204_3967019430063278_2182903737471119714_n.jpg" class="d-block w-100 h-50" alt="...">
+          </div>
+        </div>
+    </div>
+
+    <section class="lugar_evento">
+        <div class="box">
+            <p class="ceremonia first-letter datos123">CEREMONIA</p>
+            <p class="ceremonia first-letter dato12">RELIGIOSA</p>
+            <p class="horaa first-letter"><strong>HORA:</strong> 6:00 P.M.</p>
+            <div class="maps">
+                <i class="fa-sharp fa-solid fa-location-dot"></i>
+            </div>
+            <p class="hora first-letter">DIRECCIÓN:</p>
+            <p class="salon d2">Venustiano Carranza 133-B,</p>
+            <p class="salon d2">Presidentes de México, Iztapalapa,</p> 
+            <p class="salon d2"> 09740 Ciudad de México, CDMX</p>  
+            <div class="boton">
+                <a href="https://goo.gl/maps/mrRuF7DvqxpzsXom9" target="_blank" class="btn"><button>VER UBICACIÓN</button></a>
+            </div>
+        </div>
+        <img src="./carrito-300x77.png" alt="" class="carro12">
+    </section>
+
+    <section class="box-f">
+        <div class="textlugar">
+            <p class="lugar tipo">SALÓN</p>
+            <p class="lugar tipo espaci1 text">"JARDIN PRINCESS"</p>
+        </div>
+    </section>
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide arriba" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./196397415_3905622152869673_5077205550639097745_n.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./741123_496678090430780_1295104671_o.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./302246142_495309465934849_6785743193626735100_n.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+    </div>
+
+    <section class="lugar_evento">
+        <div class="box">
+            <p class="ceremonia">RECEPCIÓN</p>
+            <p class="horaa">Hora: 7:00 P.M.</p>
+            <div class="maps">
+                <i class="fa-sharp fa-solid fa-location-dot"></i>
+            </div>
+            <p class="hora first-letter">DIRECCIÓN:</p>
+            <p class="salon">Venustiano Carranza 133-B,</p>
+            <p class="salon">Presidentes de México, Iztapalapa,</p> 
+            <p class="salon"> 09740 Ciudad de México, CDMX</p>  
+            <div class="boton">
+                <a href="https://goo.gl/maps/mrRuF7DvqxpzsXom9" target="_blank"><button class="btn">VER UBICACIÓN</button></a>
+            </div>
+        </div>
+        <div class="vetimenta">
+            <p class="codigo tipo">CÓDIGO DE</p> 
+            <p class="codigo up tipo">VESTIMENTA</p>            
+            <p class="froma first-letter">FORMAL</p>
+            <img src="./dress3ad.png" alt="" class="dress">
+        </div>
+        <div class="regalo">
+            <p class="codigo tipo">SUGERENCIA</p>
+            <p class="codigo tipo regalos">DE REGALOS</p>
+        </div>
+        <div class="bancoaz">
+            <img src="./bancoazteca.png" alt="" class="banco">
+        </div>
+        <p class="datos_banc">DATO BANCARIOS</p>
+        <p class="bancos">BANCO: AZTECA</p>
+        <p class="bancos">CLABE INTERBANCARIA:</p>
+        <p class="bancos">#</p>
+        <p class="bancos">NAARA RODRIGUEZ</p>
+
+        <div class="title">
+            <p class="name">N & D</p>
+        </div>
+        <!--Aqui van a ir fotos-->
+
+        <div style="text-align: center;">
+            <hr style="width: 20%; display: inline-block;" class="linea1">
+            <span style="font-size: 24px;"><img src="./icons8-instagram.gif" alt="" class="corazons"></span>
+            <hr style="width: 20%; display: inline-block;" class="linea2">
+        </div>
+        <div class="recu">
+            <p class="recuerda">RECUERDA TOMAR MUCHAS FOTOS</p>
+            <p class="recuerda ESP">Y UTILIZA ESTE HASHTAG EN</p>
+            <p class="recuerda ESP">TODAS LAS FOTOS QUE SUBAS</p>
+            <p class="recuerda ESP">A REDES SOCIALES</p>
+            <p class="recuerda hast">#BodaN&D</p>
+        </div>
+
+        <div class="cita">
+            <div class="confirma">
+                <p class="co tam">CONFIRMA TU</p>
+                <p class="co1 tam">ASISTENCIA</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="imagen_bod grid-col-1">
+                <img src="./20220915_223432.jpg" alt="" class="im">
+            </div>
+            
+            <div class="asistencia">
+                <div class="envia">
+                    <p class="comple">Completa y envía</p>
+                    <p class="comple es">el siguiente formulario.</p>
+                </div>
+                <div class="as">
+                    <p class="may"><strong>Confirma tu asistencia:</strong></p>
+                    <div class="1">
+                        <input type="checkbox" name="opcion" id="opcion1" class="checkbox-circular">
+                        <label for="opcion1">Si asistiermos.</label>
+                    </div>
+                    <div class="2">
+                        <input type="checkbox" name="opcion" id="opcion2" class="checkbox-circular">
+                        <label for="2s">Lo siento, no podremos asistir.</label>
+                    </div>
+                    <script>
+                        const checkboxes = document.querySelectorAll('input[name="opcion"]');
+                      
+                        checkboxes.forEach(checkbox => {
+                          checkbox.addEventListener('change', function() {
+                            if (this.checked) {
+                              checkboxes.forEach(cb => {
+                                if (cb !== this) {
+                                  cb.checked = false;
+                                }
+                              });
+                            }
+                          });
+                        });
+                      </script>
+                </div>
+                <div class="as2">
+                    <p class="may"><strong>Confirma la asistencia de:</strong></p>
+                    
+                </div>
+                <div class="texto-mas">
+                    <p class="may"><strong>Dedicatoria para N & D:</strong></p>
+                    <div class="caja1">
+                        <input type="text" name="cajas" id="caja" class="caja">
+                    </div>
+                </div>
+                <div class="bot">
+                    <button class="enviardb">Enviar</button>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <footer class="footer">
+        <div class="conta">
+            <p class="gracias">¡GRACIAS POR COMPARTIR ESTE</p>
+            <p class="gracias s6s">MOMENTO TAN IMPORTANTE</p>
+            <p class="gracias s6s">EN NUESTRAS VIDAS!</p>
+        </div>
+        <div class="fin">
+            <p class="nyd">N & D</p>
+            <p class="fech">27 - 04 - 24</p>
+        </div>
+    </footer>
+
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+</body>
+</html>
